@@ -1,0 +1,71 @@
+.c_spinner{
+  width: 100%;
+  height: 100%;
+}
+
+.slick-next:before {
+  content: '';
+  display: none;
+}
+
+.slick-prev:before {
+  content: '';
+  display: none;
+
+}
+
+.slick-next {
+  right: -15px!important;
+}
+
+.slick-prev {
+  left: -15px!important;
+}
+
+.entry-left-col {
+  left: -12% !important;
+  height: 100vh!important;
+  top: 0.5rem!important;
+  bottom: 0;
+}
+
+.social-sticky-heart{
+  width: 50px!important;
+}
+
+.icon-heart{
+  font-style: initial!important;
+}
+
+.ck-editor__editable_inline {
+  min-height: 250px;
+  margin-bottom: 20px;
+}
+
+.divider {
+  margin: 0!important;
+}
+
+.c_divider{
+  margin-top: 20px!important;
+  margin-bottom: 20px!important;
+}
+
+.c_parent {
+  overflow: hidden!important;
+  position: relative!important;
+}
+
+.c_child{
+  height: 100%!important;
+  width: 100%!important;
+  position: absolute!important;
+  right: 7px!important;
+  top: 0!important;
+}
+
+@media only screen and (max-width: 768px) {
+  .c_responsive_sticky {
+    display: none;
+  }
+}
