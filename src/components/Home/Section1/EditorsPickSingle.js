@@ -18,12 +18,12 @@ function EditorsPickSingle(props) {
                     </Link>
                 </figure>
                 <div className="entry-content col-8 col-md-8 pl-md-0">
-                    <h5 className="entry-title mb-3" style={{marginLeft: "19px", marginRight: "6px"}}>
+                    <h5 className="entry-title mb-3" style={{marginLeft: "27px", marginRight: "6px"}}>
                         <Link to={`/single/${props.blog.id}`}>
                             { props.blog.title }
                         </Link>
                     </h5>
-                    <div className="entry-meta align-items-center" style={{marginLeft: "19px", marginRight: "6px"}}>
+                    <div className="entry-meta align-items-center" style={{marginLeft: "27px", marginRight: "6px"}}>
                         <Link to={''}>
                             { props.blog.writerName }
                         </Link><br />

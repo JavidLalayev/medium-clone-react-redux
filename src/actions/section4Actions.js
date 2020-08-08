@@ -8,7 +8,6 @@ export const FETCHED_BLOGS_P_FINISH = "FETCHED_BLOGS_P_FINISH";
 
 export function fetchBlogsPagination(page, limit, oldData) {
 
-
     return dispatch => {
 
 
@@ -26,7 +25,6 @@ export function fetchBlogsPagination(page, limit, oldData) {
 
                         type: FETCHED_BLOGS_P_FULFILLED,
                         payload: [...oldData, ...result]
-
                     })
                 }else{
                     dispatch({
@@ -36,7 +34,6 @@ export function fetchBlogsPagination(page, limit, oldData) {
 
                     })
                 }
-
             })
             .catch(error =>  dispatch({
 
@@ -44,7 +41,5 @@ export function fetchBlogsPagination(page, limit, oldData) {
                 payload: error
 
             }))
-
-
     }
 }
